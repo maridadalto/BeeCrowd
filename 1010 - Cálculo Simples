@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+peca1 = input()
+peca2 = input()
+ 
+codigo1, nro1, valor1 = peca1.split()
+codigo2, nro2, valor2 = peca2.split()
+
+codigo1 = int(codigo1)
+codigo2 = int(codigo2)
+nro1 = int(nro1)
+nro2 = int(nro2)
+valor1 = float(valor1)
+valor2 = float(valor2)
+
+print(f"VALOR A PAGAR: R$ {((nro1 * valor1) + (nro2 * valor2)):.2f}")
