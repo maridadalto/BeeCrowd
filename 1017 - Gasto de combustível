@@ -1,0 +1,5 @@
+tempo_gasto = int(input())
+velocidade = int(input())
+distancia = tempo_gasto * velocidade
+litros_necessarios = distancia / 12.0
+print(f"{litros_necessarios:.3f}")
