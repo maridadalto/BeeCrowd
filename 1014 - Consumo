@@ -1,0 +1,4 @@
+X = int(input())#distância
+Y = float(input())#consumo
+total = X/Y
+print(f"{total:.3f} km/l")
